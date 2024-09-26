@@ -1,4 +1,4 @@
-# ZKGRA-homework
+# ZKGRA-homework Marek Smutný
 Repo with homework files for ZKGRA subject.
 
 ## Second lab report
