@@ -2,6 +2,7 @@
 Repo with homework files for ZKGRA subject.
 
 ## Second lab report
+File krypto2.js
 
 Input Information: My input is my surname "smutny".
 
