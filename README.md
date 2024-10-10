@@ -41,13 +41,21 @@ Execution time for this was 6.611ms.
 File krypto4.js
 
 1. These messages are encoded using functions from file krypto4.js.
-    Output of krypto4.js: ENCRYPT ME 2 DAY = 15321336513442 3115 55 141151
-                          smutny = 413143423251
 
-2. first = 0100
+   Output of krypto4.js:
+
+   ENCRYPT ME 2 DAY = 15321336513442 3115 55 141151
+
+   smutny = 413143423251
+
+3. first = 0100
+
    second = 1101
+
    third = 1010
 
-3. Eight states: 𝑆 = log⁡2(8) = 3 bits
+4. Eight states: 𝑆 = log⁡2(8) = 3 bits
+
    128 states: 𝑆 = log2(128) = 7 bits
+
    256 states: 𝑆 = log2(256) = 8 bits
