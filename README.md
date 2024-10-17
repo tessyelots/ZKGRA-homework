@@ -70,14 +70,32 @@ File krypto4.js
 
 ## Fifth Lab Report
 
-1. **For \(2^x \mod 4\):**
+1.
+**For \(2^x \mod 4\):**
    - Transmitter key: \(2^6 \mod 4 = 0\)
    - Receiver key: \(2^3 \mod 4 = 0\)
    
    The common secret key for this function is **0**.
 
-2. **For \(78^x \mod 33\):**
-   - Simplifying \(78 \equiv 12 \mod 33\), we get:
-     - \(12^6 \mod 33\) and \(12^3 \mod 33 = 12\)
+**For 78^x mod 33:**
+   - Simplifying 78 = 12 mod 33, we get:
+   - 12^6 mod 33 and 12^3 mod 33 = 12
    
-   A common secret key of **12** is possible.
+   A common secret key **12** is possible.
+1.2 No, it is not possible to use 2^{-1} mod 6 as a common function because 2 and 6 are not coprime. Thus, 2 does not have an inverse modulo 6.
+
+2.
+**For n = 8:** The primitive root modulo 8 is **3**.
+**For n = 11:** The primitive root modulo 11 is **2**.
+
+3.
+| \(a\) | \(y\) | Calculation                | \(x\) |
+|-------|-------|----------------------------|-------|
+| 1     | 1     | \(1 \cdot x \equiv 1 \mod 7\)   | 1     |
+| 3     | 1     | \(3 \cdot x \equiv 1 \mod 7\)   | 5     |
+| 3     | 4     | \(3 \cdot x \equiv 4 \mod 7\)   | 6     |
+| 4     | 2     | \(4 \cdot x \equiv 2 \mod 7\)   | 4     |
+| 5     | 6     | \(5 \cdot x \equiv 6 \mod 7\)   | 5     |
+| 6     | 6     | \(6 \cdot x \equiv 6 \mod 7\)   | 1     |
+
+Values of \(a\) and \(x\) that lead to unique \(y\) values under modulo \(7\) are suitable for coding algorithms.
