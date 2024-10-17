@@ -71,9 +71,9 @@ File krypto4.js
 ## Fifth Lab Report
 
 1.
-**For \(2^x \mod 4\):**
-   - Transmitter key: \(2^6 \mod 4 = 0\)
-   - Receiver key: \(2^3 \mod 4 = 0\)
+**For 2^x \mod 4:**
+   - Transmitter key: 2^6 \mod 4 = 0
+   - Receiver key: 2^3 \mod 4 = 0
    
    The common secret key for this function is **0**.
 
@@ -89,13 +89,13 @@ File krypto4.js
 **For n = 11:** The primitive root modulo 11 is **2**.
 
 3.
-| \(a\) | \(y\) | Calculation                | \(x\) |
+| a | y | Calculation                | x |
 |-------|-------|----------------------------|-------|
-| 1     | 1     | \(1 \cdot x \equiv 1 \mod 7\)   | 1     |
-| 3     | 1     | \(3 \cdot x \equiv 1 \mod 7\)   | 5     |
-| 3     | 4     | \(3 \cdot x \equiv 4 \mod 7\)   | 6     |
-| 4     | 2     | \(4 \cdot x \equiv 2 \mod 7\)   | 4     |
-| 5     | 6     | \(5 \cdot x \equiv 6 \mod 7\)   | 5     |
-| 6     | 6     | \(6 \cdot x \equiv 6 \mod 7\)   | 1     |
+| 1     | 1     | 1 * x = 1 mod 7   | 1     |
+| 3     | 1     | 3 * x = 1 mod 7   | 5     |
+| 3     | 4     | 3 * x = 4 mod 7   | 6     |
+| 4     | 2     | 4 * x = 2 mod 7   | 4     |
+| 5     | 6     | 5 * x = 6 mod 7   | 5     |
+| 6     | 6     | 6 * x = 6 mod 7   | 1     |
 
-Values of \(a\) and \(x\) that lead to unique \(y\) values under modulo \(7\) are suitable for coding algorithms.
+Values of a and x that lead to unique y values under modulo 7 are suitable for coding algorithms.
