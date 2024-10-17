@@ -23,7 +23,7 @@ Input Information:
 Description of algorithms: First two decoding algorithms are actually the same as the encoding algorithms. Second decoding algorithm decodeCaesar() is also almost the same as encoding one, but now we are moving the characters by subtracting, not adding the K value. Also there is a function bruteforceCaesar, which can be used if we dont know the K value (shift) of our caesar ciphertext. It just tries all possible K values 0-25.
 
 Output: 
-Decoding ciphertext1A by first decoding alg.: smutny
+Decoding ciphertext1A by first decoding alg.: smutny\n
 Decoding ciphertext1A by second decoding alg.: gzihbm
 Decoding ciphertext1A by caesar decoding, by moving 19 places: oumnti
 Decoding ciphertext1B by first decoding alg.: fyhgal
