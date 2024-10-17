@@ -99,3 +99,19 @@ File krypto4.js
 | 6     | 6     | 6 * x = 6 mod 7   | 1     |
 
 Values of a and x that lead to unique y values under modulo 7 are suitable for coding algorithms.
+
+4.
+First, reduce 34 modulo 27:
+- 34 = 7 mod 27.
+
+Now, we need to find a number x such that:
+
+7 * x = 1 mod 27
+
+
+Testing small values, we find that:
+- When x = 4, 7 * 4 = 28.
+- Since 28 = 1 mod 27, this satisfies the condition.
+
+Therefore, the multiplicative inverse of 34 mod 27 is **4**.
+
