@@ -115,3 +115,28 @@ Testing small values, we find that:
 
 Therefore, the multiplicative inverse of 34 mod 27 is **4**.
 
+
+## Sixth Lab Report
+
+1. File krypto6.js
+
+2.
+
+| x86 | Initial | Final |
+|-----|---------|-------|
+| 6   | 58      | 40    |
+| 14  | 50      | 32    |
+| 23  | 42      | 24    |
+| 61  | 34      | 16    |
+| 6   | 26      | 8     |
+
+
+3.
+
+|  | S-Box |
+|--|-------|
+| A | 0    |
+| B | 14   |
+| C | 6    |
+| D | 6    |
+
