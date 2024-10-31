@@ -140,3 +140,94 @@ Therefore, the multiplicative inverse of 34 mod 27 is **4**.
 | C | 6    |
 | D | 6    |
 
+## Seventh Lab Report
+
+1. "smutny" -> HEX 73 6D 75 74 6E 79 -> sub 8f 3C 9D 92 9F B6
+
+2. A) 01 -> 7C -> 124
+   
+      AC -> 4B -> 75
+   
+      03 -> 7B -> 123
+   
+      04 -> F2 -> 242
+   
+      64 -> 43 -> 67
+   
+      06 -> 6F -> 111
+   
+      0D -> D7 -> 215
+   
+      10 -> CA -> 202
+
+   B) F1 -> 2B -> 43
+   
+      F3 -> 7E -> 126
+   
+      F4 -> BA -> 186
+   
+      F6 -> D6 -> 214
+   
+      F8 -> E1 -> 225
+   
+      FF -> 7D -> 125
+   
+      10 -> 7C -> 124
+
+3. |      | Column 1 | Column 2 | Column 3 | Column 4 |
+   |------|----------|----------|----------|----------|
+   | Row 1 | 63       | 7c       | 77       | 7b       |
+   | Row 2 | 82       | c9       | 7d       | ca       |
+   | Row 3 | 93       | 26       | b7       | fd       |
+   | Row 4 | c3       | 04       | c7       | 23       |
+
+4.    |      | Column 1 | Column 2 | Column 3 | Column 4 |
+      |------|----------|----------|----------|----------|
+      | Row 1 | 63       | ca       | b7       | 04       |
+      | Row 2 | 82       | fd       | c7       | 7c       |
+      | Row 3 | 93       | 23       | 77       | c9       |
+      | Row 4 | c3       | 7b       | 7d       | 26       |
+
+5.
+  | Column 1  | Column 2  | Column 3  | Column 4  |
+  |-----------|-----------|-----------|-----------|
+  | Byte 0    | Byte 1    | Byte 2    | Byte 3    |
+  | Byte 4    | Byte 5    | Byte 6    | Byte 7    |
+  | Byte 8    | Byte 9    | Byte 10   | Byte 11   |
+  | Byte 12   | Byte 13   | Byte 14   | Byte 15   |
+  | Byte 16   | Byte 17   | Byte 18   | Byte 19   |
+  | Byte 20   | Byte 21   | Byte 22   | Byte 23   |
+  | Byte 24   | Byte 25   | Byte 26   | Byte 27   |
+  | Byte 28   | Byte 29   | Byte 30   | Byte 31   |
+  | Byte 32   | Byte 33   | Byte 34   | Byte 35   |
+  | Byte 36   | Byte 37   | Byte 38   | Byte 39   |
+  | Byte 40   | Byte 41   | Byte 42   | Byte 43   |
+  | Byte 44   | Byte 45   | Byte 46   | Byte 47   |
+  | Byte 48   | Byte 49   | Byte 50   | Byte 51   |
+  | Byte 52   | Byte 53   | Byte 54   | Byte 55   |
+  | Byte 56   | Byte 57   | Byte 58   | Byte 59   |
+  | Byte 60   | Byte 61   | Byte 62   | Byte 63   |
+  | Byte 64   | Byte 65   | Byte 66   | Byte 67   |
+  | Byte 68   | Byte 69   | Byte 70   | Byte 71   |
+  | Byte 72   | Byte 73   | Byte 74   | Byte 75   |
+  | Byte 76   | Byte 77   | Byte 78   | Byte 79   |
+  | Byte 80   | Byte 81   | Byte 82   | Byte 83   |
+  | Byte 84   | Byte 85   | Byte 86   | Byte 87   |
+  | Byte 88   | Byte 89   | Byte 90   | Byte 91   |
+  | Byte 92   | Byte 93   | Byte 94   | Byte 95   |
+  | Byte 96   | Byte 97   | Byte 98   | Byte 99   |
+  | Byte 100  | Byte 101  | Byte 102  | Byte 103  |
+  | Byte 104  | Byte 105  | Byte 106  | Byte 107  |
+  | Byte 108  | Byte 109  | Byte 110  | Byte 111  |
+  | Byte 112  | Byte 113  | Byte 114  | Byte 115  |
+  | Byte 116  | Byte 117  | Byte 118  | Byte 119  |
+  | Byte 120  | Byte 121  | Byte 122  | Byte 123  |
+  | Byte 124  | Byte 125  | Byte 126  | Byte 127  |
+  | Byte 128  | Byte 129  | Byte 130  | Byte 131  |
+  | Byte 132  | Byte 133  | Byte 134  | Byte 135  |
+  | Byte 136  | Byte 137  | Byte 138  | Byte 139  |
+  | Byte 140  | Byte 141  | Byte 142  | Byte 143  |
+  | Byte 144  | Byte 145  | Byte 146  | Byte 147  |
+  | Byte 148  | Byte 149  | Byte 150  | Byte 151  |
+  | Byte 152  | Byte 153  | Byte 154  | Byte 155  |
+  | Byte 156  | Byte 157  | Byte 158  | Byte 159  |
