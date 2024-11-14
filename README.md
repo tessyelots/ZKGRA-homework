@@ -231,3 +231,111 @@ Therefore, the multiplicative inverse of 34 mod 27 is **4**.
   | Byte 148  | Byte 149  | Byte 150  | Byte 151  |
   | Byte 152  | Byte 153  | Byte 154  | Byte 155  |
   | Byte 156  | Byte 157  | Byte 158  | Byte 159  |
+
+
+
+## Eight lab report
+
+1.
+
+- n = p × q = 5 × 7 = 35
+- φ(n) = (p - 1)(q - 1) = 4 × 6 = 24
+
+- e = 5 (coprime with φ(n)).
+
+- Solve d × e ≡ 1 mod φ(n): 
+  - 5d ≡ 1 mod 24.
+  - Modular inverse gives d = 5.
+
+**Public key:** (e, n) = (5, 35)  
+**Private key:** (d, n) = (5, 35)
+
+- ASCII values:  
+  `B = 66, r = 114, a = 97, t = 116, i = 105, s = 115, l = 108, a = 97, v = 118, a = 97`
+
+- Encrypt each value \( c \equiv m^d \mod n \):  
+  - c_B = 66^5 mod 35 = 16  
+  - c_r = 114^5 mod 35 = 29  
+  - c_a = 97^5 mod 35 = 17  
+  - c_t = 116^5 mod 35 = 31  
+  - c_i = 105^5 mod 35 = 20  
+  - c_s = 115^5 mod 35 = 30  
+  - c_l = 108^5 mod 35 = 23  
+  - c_a = 97^5 mod 35 = 17  
+  - c_v = 118^5 mod 35 = 33  
+  - c_a = 97^5 mod 35 = 17  
+
+**Encrypted text (ciphertext):**  
+16, 29, 17, 31, 20, 30, 23, 17, 33, 17
+
+- Decrypt each c value using \( m \equiv c^e \mod n \):  
+  - m_B = 16^5 mod 35 = 66 ('B')  
+  - m_r = 29^5 mod 35 = 114 ('r')  
+  - m_a = 17^5 mod 35 = 97 ('a')  
+  - m_t = 31^5 mod 35 = 116 ('t')  
+  - m_i = 20^5 mod 35 = 105 ('i')  
+  - m_s = 30^5 mod 35 = 115 ('s')  
+  - m_l = 23^5 mod 35 = 108 ('l')  
+  - m_a = 17^5 mod 35 = 97 ('a')  
+  - m_v = 33^5 mod 35 = 118 ('v')  
+  - m_a = 17^5 mod 35 = 97 ('a')  
+
+**Decrypted text:**  
+"Bratislava"
+
+2.
+
+- n = p × q = 9 × 11 = 99  
+- φ(n) = (p - 1)(q - 1) = 8 × 10 = 80
+
+- e = 3 (coprime with φ(n)).
+
+- Solve d × e ≡ 1 mod φ(n):  
+  - 3d ≡ 1 mod 80.  
+  - Modular inverse gives d = 27.
+
+**Public key:** (e, n) = (3, 99)  
+**Private key:** (d, n) = (27, 99)
+
+- ASCII values:  
+  `B = 66, A = 65, N = 78, K = 75`
+
+- Encrypt each value \( c \equiv m^e \mod n \):  
+  - c_B = 66^3 mod 99 = 21  
+  - c_A = 65^3 mod 99 = 62  
+  - c_N = 78^3 mod 99 = 3  
+  - c_K = 75^3 mod 99 = 57  
+
+**Encrypted text (ciphertext):**  
+21, 62, 3, 57
+
+- Decrypt each c value using \( m \equiv c^d \mod n \):  
+  - m_B = 21^27 mod 99 = 66 ('B')  
+  - m_A = 62^27 mod 99 = 65 ('A')  
+  - m_N = 3^27 mod 99 = 78 ('N')  
+  - m_K = 57^27 mod 99 = 75 ('K')  
+
+**Decrypted text:**  
+"BANK"
+
+3.
+
+- n = p × q = 7 × 11 = 77  
+- φ(n) = (p - 1)(q - 1) = 6 × 10 = 60
+
+- Possible values of e:  
+  `7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 49, 53, 59`
+
+**Public keys:**  
+(7, 77), (11, 77), (13, 77), ..., (59, 77)
+
+- n = p × q = 9 × 11 = 99  
+- φ(n) = (p - 1)(q - 1) = 8 × 10 = 80
+
+- Possible values of e:  
+  `3, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 49, 53, 59, 61, 67, 71, 73, 79`
+
+**Public keys:**  
+(3, 99), (7, 99), (11, 99), ..., (79, 99)
+
+
