@@ -339,3 +339,18 @@ Therefore, the multiplicative inverse of 34 mod 27 is **4**.
 (3, 99), (7, 99), (11, 99), ..., (79, 99)
 
 
+## Ninth lab report
+
+1.
+
+| n   | m   | Case                  | Simple Hash (n % m) | Complex Hash (n1-n6) |
+|-----|-----|-----------------------|---------------------|-----------------------|
+| 12 | 5 | even n and m | 2 | 0 |
+| 14 | 3 | even n, odd m | 2 | 0 |
+| 9 | 3 | odd n and m | 0 | 0 |
+| 18 | 6 | even n and m | 0 | 3 |
+| 11 | 7 | odd n and m | 4 | 0 |
+
+2.3.4. krypto9.js
+
+
