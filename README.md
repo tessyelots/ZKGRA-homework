@@ -353,4 +353,27 @@ Therefore, the multiplicative inverse of 34 mod 27 is **4**.
 
 2.3.4. krypto9.js
 
+## Tenth lab report
 
+1.     Message: A1 A3 A2 A4 A6 = 00 10 01 11 101
+   redundant message: 00 10 11 10 111
+2.
+| **Symbols** | **Probability** | **1**  | **2**  | **3**  | **4**  | **5**  | **6**  | **7**  |
+|-------------|------------------|--------|--------|--------|--------|--------|--------|--------|
+| \( m_1 \)   | 0.25            | 0.25   | 0.25   | 0.25   | 0.35   | 0.40   | 0.60   | 1.00   |
+| \( m_2 \)   | 0.20            | 0.20   | 0.20   | 0.20   | 0.25   | 0.35   | 0.40   |        |
+| \( m_3 \)   | 0.15            | 0.15   | 0.20   | 0.20   | 0.20   | 0.25   |        |        |
+| \( m_4 \)   | 0.10            | 0.10   | 0.15   | 0.20   | 0.20   |        |        |        |
+| \( m_5 \)   | 0.10            | 0.10   | 0.10   | 0.15   |        |        |        |        |
+| \( m_6 \)   | 0.10            | 0.10   | 0.10   |        |        |        |        |        |
+| \( m_7 \)   | 0.05            | 0.10   |        |        |        |        |        |        |
+| \( m_8 \)   | 0.05            |        |        |        |        |        |        |        |
+
+3. Redundant Codes: Useful for error detection, correction, and ensuring reliable data transmission.
+   Example: Hamming codes or CRC in networks to verify data integrity.
+   Non-Redundant Codes: Used when efficiency is important, such as in encryption to minimize data size and reduce         processing time.
+
+   Importance of Redundancy for Stable Operation:
+    - Helps correct errors caused by noise or failures.
+    - Increases system reliability and fault tolerance, ensuring critical data is not lost.
+    - Ensures integrity in distributed systems like cloud storage or networks.
