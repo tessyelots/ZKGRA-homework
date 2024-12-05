@@ -383,7 +383,8 @@ Therefore, the multiplicative inverse of 34 mod 27 is **4**.
 1.  
   p=23
   q=37
-3.
+
+2.
   1. **Public Key**: 
      \( (e, n) = (7, 33) \)
   
@@ -394,7 +395,7 @@ Therefore, the multiplicative inverse of 34 mod 27 is **4**.
      Using the private key to decrypt: 
      \( m = C^d \mod n = 29^3 \mod 33 = 2 \)
 
-4.
+3.
   program: krypto12.js
   result: AES
 
