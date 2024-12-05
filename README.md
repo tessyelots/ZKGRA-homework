@@ -385,13 +385,13 @@ Therefore, the multiplicative inverse of 34 mod 27 is **4**.
   q=37
 
 2.
-  1. **Public Key**: 
+   **Public Key**: 
      \( (e, n) = (7, 33) \)
   
-  2. **Cryptogram \( C \)**: 
+   **Cryptogram \( C \)**: 
      \( C = m^e \mod n = 2^7 \mod 33 = 29 \)
   
-  3. **Recovered Message**: 
+   **Recovered Message**: 
      Using the private key to decrypt: 
      \( m = C^d \mod n = 29^3 \mod 33 = 2 \)
 
