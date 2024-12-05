@@ -377,3 +377,24 @@ Therefore, the multiplicative inverse of 34 mod 27 is **4**.
     - Helps correct errors caused by noise or failures.
     - Increases system reliability and fault tolerance, ensuring critical data is not lost.
     - Ensures integrity in distributed systems like cloud storage or networks.
+  
+## Twelfth lab report
+
+1.  
+  p=23
+  q=37
+3.
+  1. **Public Key**: 
+     \( (e, n) = (7, 33) \)
+  
+  2. **Cryptogram \( C \)**: 
+     \( C = m^e \mod n = 2^7 \mod 33 = 29 \)
+  
+  3. **Recovered Message**: 
+     Using the private key to decrypt: 
+     \( m = C^d \mod n = 29^3 \mod 33 = 2 \)
+
+4.
+  program: krypto12.js
+  result: AES
+
